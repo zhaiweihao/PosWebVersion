@@ -1,0 +1,300 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100%;
+}
+
+.cube-height{
+  height: 100px;
+}
+
+#root,#root>div{
+  height: 100%;  
+}
+
+.fill{
+  width:100%;
+  height:100%;
+}
+
+.fill-height{
+  height: 100%;
+}
+
+.fill-width{
+  width:100%;
+}
+
+.logo-height{
+  height: 200px;
+}
+
+.height-p50{
+  height: 50%;
+}
+
+.pading-5{
+  padding: 5px;
+}
+
+.z-index-50{
+  z-index: 50;
+}
+
+.z-index-1{
+  z-index: 1;
+}
+
+.slow-move{
+  transform: all 0.5s;
+}
+
+.block-center {
+  text-align: center;
+}
+
+.block-center:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle; 
+  margin-right: -0.25em; 
+}
+
+.centered {
+  display: inline-block;
+  vertical-align: middle;
+  /*width: 50%;*/
+}
+
+.hover-pointer:hover{
+  cursor: pointer;
+}
+
+.padding-left-10{
+  padding-left: 10px;
+}
+
+.padding-0{
+  padding:0;
+}
+.padding-3{
+  padding:3px;
+}
+.padding-left-3{
+  padding-left: 3px;
+}
+.padding-right-3{
+  padding-right: 3px;
+}
+.padding-top-3{
+  padding-top: 3px;
+}
+.padding-bottom-3{
+  padding-bottom: 3px;
+}
+
+.color-white{
+  background-color: #fff;
+}
+
+.block-right{
+  text-align: right;
+}
+/*begin custom style*/
+.salePage{
+  width:100%;
+  height:100%;
+}
+
+.headerMenu{
+  height: 50%;
+}
+
+.headerMenu > div{
+  padding:3px;
+  height: 100%;
+  width: 25%;
+  float: left;
+}
+
+.footerMenu > div{
+  padding:3px;
+  height: 100%;
+  width: 33.3%;
+  float: left;
+}
+
+.prdRst{
+  position: absolute;
+  /*margin:3px;*/
+  width: inherit;
+  border:1px solid #ddd;
+  
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.prdRst > li{
+  background-color:#fff;
+  font-size: 22px;
+  font-family: "黑体";
+  padding:15px;
+}
+
+.prdRst > li:hover{
+  background-color:#eee;
+}
+
+.prdRst > li div{
+  display: inline;
+  text-align: left;
+}
+
+.searchDropList{
+  background-color:#eee;
+  height: 0;
+  overflow-x: hidden;
+}
+
+.sale-item-delete-button{
+  color:red;
+}
+.sale-item-delete-button:hover{
+  color:#af1b1b;
+}
+
+.searchBox-prefix-button{
+  color: rgba(0, 0, 0, 0.2);
+}
+.searchBox-prefix-button:hover{
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.sale-item-bottomBox{
+  height: 20px;
+  border-top: 1px solid #eee
+}
+
+.cube{
+  display:block;
+  font-family:黑体;
+  text-align:center;
+  font-size:21px;
+  cursor:pointer;
+}
+
+
+.saleresult-row{
+  padding:3px;
+}
+.saleresult-label{
+  font-family: '黑体';
+  font-size: 15px;
+  padding-top:5px;
+  padding-left:3%;
+}
+.saleresult-input{
+  padding-top:6px;
+  text-align: right;
+  width:40%;
+}
+.saleresult-input > input{
+  text-align: right;
+  padding-right:1px;
+}
+
+.salepayment-label{
+  font-family: '黑体';
+  font-size: 13px;
+  padding-top:5px;
+  padding-left:3%;
+}
+.salepayment-label-small{
+  font-family: '黑体';
+  font-size: 10px;
+  padding-top:8px;
+  padding-left:3%;
+}
+.salepayment-header{
+  margin-top:10px;
+  font-size: 20px;
+}
+.salepayment-input{
+  text-align: right;
+  padding-top:6px;
+}
+.salepayment-input > input{
+  text-align: right;
+}
+.sale-broder{
+  border-top:1px solid #ddd;
+  border-bottom:1px solid #ddd;
+}
+.salesman-input{
+  background-color: #ECF0F4
+}
+.custCell td{
+  padding:2px 4px;
+  text-align:left;
+}
+/*end custom style*/
+
+
+/*begin overwrite ant style*/
+.ant-input-preSuffix-wrapper{
+  display: block;
+  height: 100%;
+  line-height: 0;
+  padding:3px;
+}
+
+.ant-input-preSuffix-wrapper .ant-input:not(:first-child){
+  padding-left: 30px;
+}
+
+.ant-table-thead>tr>th,
+.ant-table-tbody>tr>td{
+  text-align: center !important;
+  background-color:#fff;
+}
+
+.ant-table-tbody{
+  font-size: 15px;
+  font-family: "黑体";
+}
+
+.ant-input{
+  border-radius:0;
+}
+
+.searchBox{
+  font-size:22px !important;
+}
+
+
+.radius{
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.login-input{
+  width:337px;
+  height:34px;
+}
+.login-button{
+  width:94px;
+  height:36px;
+}
+.login-font{
+  font-size:4.23px;
+  font-family:'黑体';
+}
+.login-font-color{
+  color:#000;
+}
+
+
+
+/*end overwrite ant style*/

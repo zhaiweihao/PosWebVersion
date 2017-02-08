@@ -1,0 +1,38 @@
+[
+  {
+    "id": "5733e06221b8ea000164504f",
+    "couponNo": "BA39A432D8B0",
+    "customerNo": "0000034835",
+    "brandCode": "FO",
+    "password": "",
+    "distributeFor": {
+      "couponEventCode": "A",
+      "couponEventName": "新用户注册"
+    },
+    "couponType": {
+      "couponTypeCode": "B",
+      "couponTypeName": "现金券"
+    },
+    "couponName": "FOLDER CLUB 30元欢迎礼券",
+    "minUsableAmount": 300,
+    "discount": {
+      "amount": 30,
+      "rate": null
+    },
+    "startDate": "2016-05-18T16:00:00.0000000Z",
+    "endDate": "2016-06-30T15:59:59.0000000Z",
+    "usableBrands": [
+      "FO"
+    ],
+    "usableStyles": [],
+    "discountDescription": "正价消费满300元以上，结账时可抵扣30元。详情可参考使用规则",
+    "issueDate": "2016-04-30T16:00:00.0000000Z",
+    "rule": null,
+    "ruleDescription": "1.本券不可与其他优惠活动同享，单笔消费仅限使用一张优惠券\n2.  每个微信号仅限使用一次\n3.  仅限使用于消费正价商品\n4.  适用店铺：FOLDER 全国店铺（不含特惠店和奥特莱斯）\n5.  退货规则：发生商品退货时，关联优惠券一经使用，概不退回。",
+    "promotionId": 0,
+    "salesNo": [],
+    "used": false,
+    "usedDate": null,
+    "usedPlaceCode": null
+  }
+]

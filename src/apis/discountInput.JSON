@@ -1,0 +1,24 @@
+{
+    "couponNo":"NCEDA4EE48DA8AE4F6",
+    "isReSale":false,
+    "calculateItems":[
+        {
+            "brandCode":"NC",
+            "productCode":"111111001",
+            "styleCode":"111111",
+            "qty":1,
+            "price":100,
+            "spotCode":"C301",
+            "itemCode":"AB"
+        },
+        {
+            "brandCode":"NC",
+            "productCode":"111111002",
+            "styleCode":"111111",
+            "qty":1,
+            "price":100,
+            "spotCode":"C301",
+            "itemCode":"AB"
+        }
+    ]
+}

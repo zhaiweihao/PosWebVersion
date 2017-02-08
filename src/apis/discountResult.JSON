@@ -1,0 +1,42 @@
+{
+    "success":true,
+    "result":{
+        "subTotal":100.00,
+        "total":200.00,
+        "discountAmount":100.00,
+        "discountName":"",
+        "eventId":"",
+        "partRefund":false,
+        "couponType":"",
+        "calculateItems":[
+            {
+                "brandCode":"NC",
+                "productCode":"111111001",
+                "total":100.00,
+                "subTotal":50.00,
+                "discountAmount":50.00
+            },
+            {
+                "brandCode":"NC",
+                "productCode":"111111002",
+                "total":100.00,
+                "subTotal":50.00,
+                "discountAmount":50.00
+            }
+        ]
+    },
+    "error":null
+}
+
+/*
+{
+  "success": false,
+  "result": null,
+  "error": {
+    "Code": "60009",
+    "Message": "Coupon has out of date",
+    "Details": "优惠券已过期",
+    "ValidationErrors": null
+  }
+}
+*/

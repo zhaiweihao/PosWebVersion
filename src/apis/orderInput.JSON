@@ -1,0 +1,77 @@
+{
+  "id": "09242189-cdb4-4bc1-8b29-e93a8cfb566e",
+  "orderNo": "EE0C7TN170110010003",
+  "orderType": "N",
+  "total": 598,
+  "subTotal": 508.3,
+  "quantity": 1,
+  "terminalName": "1",
+  "cashierName": "shop-7000019650",
+  "custName": "",
+  "custNo": "0003642792",
+  "savedMileage": 0,
+  "usedMileage": 0,
+  "status": 30,
+  "orderDate": "20170110",
+  "origOrderID": null,
+  "isReturn": false,
+  "storeGroupCode": "EE",
+  "storeCode": "C7TN",
+  "totalDiscountAmt": 89.7,
+  "storeReceiptNo": "7678757",
+  "items": [
+    {
+      "id": "584b262e-c308-4119-9023-51d5dabf49e7",
+      "orderId": "09242189-cdb4-4bc1-8b29-e93a8cfb566e",
+      "orderNo": "EE0C7TN170110010003",
+      "orderItemSeqNo": 1,
+      "productId": "EEKW71102D20170",
+      "quantity": 1,
+      "unitPrice": 598,
+      "enteredPrice": null,
+      "total": 598,
+      "subTotal": 508.3,
+      "totalDiscountAmt": 89.7,
+      "styleCode": "EEKW71102D"
+    }
+  ],
+  "orderPayments": [
+    {
+      "id": "6eb68fe9-aad6-4b8a-8c2f-f1ce1feb81ec",
+      "orderId": "09242189-cdb4-4bc1-8b29-e93a8cfb566e",
+      "orderNo": "EE0C7TN170110010003",
+      "orderPaymentSeqNo": 1,
+      "recvAmt": 508.3,
+      "orderPayType": 0,
+      "changeAmt": 0,
+      "payAmt": 508.3,
+      "paymentType": "0",
+      "payName": "现金",
+      "cardNo": null,
+      "cardType": null,
+      "cardApprovalTime": "1900-01-01T00:00:00",
+      "cardApprovalNo": null,
+      "cardSerialNo": null,
+      "cardTerminalNo": null,
+      "transNo": null
+    }
+  ],
+  "orderCoupons": [
+    {
+      "id": "c9b9ec29-8296-4dbc-be3a-bc494ead7c77",
+      "orderId": "09242189-cdb4-4bc1-8b29-e93a8cfb566e",
+      "couponNo": "EE9FDEA3A0643B2A9C",
+      "benefitValue": "89.70",
+      "couponId": null,
+      "useChk": false,
+      "brandCode": "EE",
+      "couponType": "Discount",
+      "eventId": "EE2016120003",
+      "discount": null
+    }
+  ],
+  "partRefundable": true,
+  "isReSale": false,
+  "custBrandCode": "EE",
+  "inDateTime": "2017-01-10T23:27:06.813"
+}
